@@ -6,7 +6,8 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "CaskaydiaCove Nerd Font:pixelsize=14:antialias=true:autohint=true";
+// static char *font = "CommitMono Nerd Font:pixelsize=14:antialias=true:autohint=true";
+static char *font = "CaskaydiaCove Nerd Font:pixelsize=15:antialias=true:autohint=true";
 #if FONT2_PATCH
 /* Spare fonts */
 static char *font2[] = {

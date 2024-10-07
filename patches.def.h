@@ -233,7 +233,7 @@
  * https://github.com/cog1to/st-ligatures
  * https://st.suckless.org/patches/ligatures/
  */
-#define LIGATURES_PATCH 0
+#define LIGATURES_PATCH 1
 
 /* This patch makes st ignore terminal color attributes by forcing display of the default
  * foreground and background colors only - making for a monochrome look. Idea ref.
@@ -330,13 +330,13 @@
 /* Scroll back through terminal output using Shift+{PageUp, PageDown}.
  * https://st.suckless.org/patches/scrollback/
  */
-#define SCROLLBACK_PATCH 0
+#define SCROLLBACK_PATCH 1
 
 /* Scroll back through terminal output using Shift+MouseWheel.
  * This variant depends on SCROLLBACK_PATCH being enabled.
  * https://st.suckless.org/patches/scrollback/
  */
-#define SCROLLBACK_MOUSE_PATCH 0
+#define SCROLLBACK_MOUSE_PATCH 1
 
 /* Scroll back through terminal output using mouse wheel (when not in MODE_ALTSCREEN).
  * This variant depends on SCROLLBACK_PATCH being enabled.
